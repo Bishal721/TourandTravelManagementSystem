@@ -1,0 +1,268 @@
+/*  */
+/* Style for the search box */
+
+/* .search-box {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+} */
+/* 
+#search-box {
+  width: 20%;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+} */
+
+
+
+/* Style for the search button */
+#search-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the container div */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: center;
+  height: 60vh;
+  padding: 0%;
+}
+
+/* Style for the search container */
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the card */
+.card {
+  /* background-color: #D8D4D4; */
+  background: linear-gradient(
+    rgba(236, 233, 233, 0.4),
+    rgba(169, 167, 167, 0.4) 50%
+  );
+  padding: 10px;
+  width: 80%;
+  margin-left: 120px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* .card *{
+  border: 1px solid red;
+
+} */
+.HomeMainDiv{
+  width: 100%;
+  height: 90vh;
+  background-image: url("../Images/homepageImage.jpg");
+  background-size:cover;
+}
+.h1{
+font-family: 'Poppins',Arial, Helvetica, sans-serif;
+color: white;
+font-size: 50pt;
+padding-top: 100px;
+margin-bottom: -10px;
+}
+.h4{
+font-family: 'Poppins',Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 200%;
+font-size: 18pt;
+color: white;
+}
+
+/*  */
+/*  */
+.search-bar {
+display: flex;
+justify-content: space-evenly;
+}
+
+.search-box {
+width: 30%;
+/* position:relative; */
+}
+
+
+.inp{
+width: 93%;
+padding: 15px 35px 15px 15px;
+border: none;
+border-radius: 5px;
+font-family: 'Inter',Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+#ip{
+  width: 90% ;
+}
+
+input[type="text"]:focus {
+outline: none;
+box-shadow: 0 0 0 2px #007bff;
+}
+
+.date-box {
+display: flex;
+width: 20%;
+/* align-items: c; */
+}
+
+/* .date-box label {
+margin-right: 10px;
+color: #333;
+} */
+
+input[type="text"]#date {
+width: 100%;
+padding: 15px;
+border: none;
+font-size: 16px;
+text-align: center;
+}
+
+#search-button {
+background-color: #5CC8DF;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+padding: 15px 80px;
+cursor: pointer;
+}
+
+#search-button:hover,
+#calendar-button:hover {
+background-color: #0062cc;
+}
+
+.mistake{
+  color: red;
+  display: block;
+  margin-right: -7.4em;
+  text-align: left;
+  margin-bottom: 1.1em;
+}
+
+/* .searchIcon{
+  color: black;
+} */
+.How-Home{
+  margin-top: 40px;
+}
+.How-Home .h{
+  font-family: 'Qwigley';
+  color: red;
+  font-weight: lighter;
+  font-size: 80px;
+  margin-bottom: 0%;
+}
+.Home-Howmaindiv {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.Home-How-Register{
+  margin-top: 8px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../Images/Register.png");
+  background-size:cover;
+}
+.How-Bookpacakge{
+  margin-top: 8px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../Images/Bookpacakge.png");
+  background-size:cover;
+}
+.Jome-How-Login{
+  margin-top: 8px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../Images/Login.png");
+  background-size:cover;
+}
+.Home-How-Travel{
+  margin-top: 8px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../Images/travel.png");
+  background-size:cover;
+}
+/* why */
+.Home-Why{
+  margin-top: 40px;
+}
+.Home-Why .w{
+  font-family: 'Qwigley';
+  color: red;
+  font-size: 80px;
+  font-weight: lighter;
+  margin-bottom: 0%;
+}
+.Home-Whymaindiv {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8rem;
+}
+.Home-Why-Service{
+  margin-top: 8px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../Images/Like.png");
+  background-size:cover;
+}
+.Home-Why-Security{
+  margin-top: 8px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../Images/Security.png");
+  background-size:cover;
+}
+.Home-Why-Support{
+  margin-top: 8px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  background-image: url("../Images/Support.png");
+  background-size:cover;
+}
